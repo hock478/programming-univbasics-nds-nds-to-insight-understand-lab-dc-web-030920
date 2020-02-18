@@ -9,5 +9,7 @@ end
 
 def print_first_directors_movie_titles
   #print "Jaws\nClose Encounters of the Third Kind\nRaiders of the #Lost Ark\nE.T. the Extra-terrestrial\nSchindler's   #List\nLincoln\n"
-  
+   directors_database[0][:movies].each do |n|
+   puts n[:title]
+ end
 end
